@@ -12,11 +12,11 @@
     </style>
 </head>
 
-<body onload="collatzWrite()">
+<body onload="collatzWrite(collatzString, 50)">
     
     <button onclick="collatzRewrite()">Generate new Collatz sequence!</button>
     
-    <p id="collatz-step"> </p>
+    <p id="collatz-step">"Number of steps to converge " + collatzSeq[0] +" to 1: " + collatzSeq.length;</p>
     <p id="collatz-sequence"> </p>
     
     
